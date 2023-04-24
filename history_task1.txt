@@ -1,0 +1,23 @@
+   0 cd /home
+   1 mkdir dogs
+   2 mkdir cats
+   3 mkdir fish
+   4 ls
+   5 touch /home/dogs/pluto.txt
+   6 touch /home/cats/garfield.txt
+   7 touch /home/fish/nemo.txt
+   8 tree
+   9 touch /tmp/adam.txt
+  10 mkdir /home/humans
+  11 cp /tmp/adam.txt /home/humans/
+  12 tree
+  13 touch /tmp/evA.tmp
+  14 rm --help
+  15 rm /tmp/evA.tmp
+  16 ls /tmp
+  17 touch /tmp/evA.txt
+  18 mv /tmp/evA.txt /opt/eve.txt
+  19 ls /opt
+  20 mv /opt/eve.txt /home/humans/
+  21 tree
+  22 history > history_task1.txt
