@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "your name is: $USER"
+echo "your working directory is: $PWD"
+echo "Number of users: $(ps aux | grep -c ssh)"
+echo "done"
