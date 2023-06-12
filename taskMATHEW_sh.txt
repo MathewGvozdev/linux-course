@@ -1,0 +1,9 @@
+#!/bin/bash
+
+date_var=$(date +"%H%M%S")
+for run in {1..10}
+do
+counter=$run
+file="${counter}${date_var}"
+touch $file
+done
